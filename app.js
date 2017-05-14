@@ -26,7 +26,7 @@ console.log('command: ', command);
 //now we can do stuff depending on the item passed in the commandline
 //for example, we can run app as: node app.js add, or node app.js list
 if(command ==='add'){
-   console.log('Adding a new Note!');
+   console.log('Adding a new note!');
 }else if(command ==='list'){
    console.log('Listing all notes!');
 }else if (command ==='read'){
