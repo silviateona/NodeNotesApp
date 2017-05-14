@@ -19,8 +19,8 @@ console.log(`Hey there ${user.username}! Your old ass is already ${notes.age}!`)
 var notesAddNote = notes.addNote();
 
 var addedNumbers = notes.addNumbers(1, 2);
-zeFS.appendFile('greetings.txt', `\rZe added numbers total ${addedNumbers}.`,(err)=>{
+zeFS.appendFile('greetings.txt', `Ze added numbers total ${addedNumbers}.`,(err)=>{
    if (err){
       console.log('error adding numbers');
-   }
+   };
 });
