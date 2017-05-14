@@ -1,7 +1,7 @@
 console.log('starting app.js, yo!');
 
 //fetch contents of fs aka file system nodejs module and put in constant
-const zeFS = require('fs');
+const fs = require('fs');
 
 //require our very own notes.js file, with a relative path to the current file
 //requiring this file will run all code written in it!
@@ -13,6 +13,8 @@ var notesAddNote = notes.addNote();
 //let's include a third party library installed through npm into project!!
 
 const _=require('lodash');
+
+const yargs = require('yargs');
 
 //some command line magics: u can run app:
 //node app.js winnie
