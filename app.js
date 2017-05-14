@@ -24,3 +24,11 @@ zeFS.appendFile('greetings.txt', `Ze added numbers total ${addedNumbers}.`,(err)
       console.log('error adding numbers');
    };
 });
+
+//let's include a third party library installed through npm into project!!
+//don't forget to intitialize github and its repository before doing an npm init in a project folder
+//here we used npm install lodash --save, the --save flag updating the package.json file
+//use package name as specified in this package.json file
+//third party modules install in a new node_modules folder
+
+const _=require('lodash');

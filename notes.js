@@ -15,6 +15,5 @@ module.exports.addNote = ()=>{
 };
 
 module.exports.addNumbers = (a, b)=>{
-   var c = a+b;
-   return c;
+   return a+b;
 }
