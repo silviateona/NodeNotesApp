@@ -29,6 +29,12 @@ if(command ==='add'){
    console.log('Adding a new Note!');
 }else if(command ==='list'){
    console.log('Listing all notes!');
+}else if (command ==='read'){
+   console.log('Reading an individual note!');
+}else if(command === 'remove'){
+   console.log('Removing a note.');
+}else if(command == undefined){
+   console.log('Ye forgot to give ze command, fool!');
 }else{
-   console.log('command either forgotten or not recognized');
+   console.log('command not recognized :/');
 }
