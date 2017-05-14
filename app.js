@@ -32,3 +32,7 @@ zeFS.appendFile('greetings.txt', `Ze added numbers total ${addedNumbers}.`,(err)
 //third party modules install in a new node_modules folder
 
 const _=require('lodash');
+//let's use a method from the lodash api, uniq, that filters out all duplicates from an array
+var arrayFilter = ['silf', 'shroom', 'shrooms', 1, 2, 1, 2, 3];
+arrayFilter = _.uniq(arrayFilter);
+console.log(`filtered array: ${arrayFilter}`);
