@@ -1,22 +1,22 @@
 {
-  "name": "notes-node",
-  "version": "1.0.0",
-  "description": "learning app",
-  "homepage": "https://github.com/silviateona/NodeNotesApp#readme",
-  "bugs": {
-    "url": "https://github.com/silviateona/NodeNotesApp/issues"
-  },
-  "license": "ISC",
-  "author": "silf",
-  "main": "app.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silviateona/NodeNotesApp.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "lodash": "^4.17.4"
-  }
+	"name": "notes-node",
+	"version": "1.0.0",
+	"description": "learning app",
+	"homepage": "https://github.com/silviateona/NodeNotesApp#readme",
+	"bugs": {
+		"url": "https://github.com/silviateona/NodeNotesApp/issues"
+	},
+	"license": "ISC",
+	"author": "silf",
+	"main": "app.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/silviateona/NodeNotesApp.git"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"lodash": "^4.17.4"
+	}
 }
