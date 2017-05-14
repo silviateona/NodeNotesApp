@@ -25,10 +25,9 @@ ze traditional way to write this:
 '\rHello there, '+user.username+'! This be JS fooling with yer files.'
 */
 
-/*
+
 zeFS.appendFile('greetings.txt', `\rHey there, ${user.username}! Ain't ES6 nice???`, (err)=>{
    if(err){
       console.log('ze error meanz no writings to greetings file!');
    }
 });
-*/
