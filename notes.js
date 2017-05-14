@@ -13,3 +13,8 @@ module.exports.addNote = ()=>{
    console.log('ze addNote function accessed');
    return 'A brand-new note returned here, yo!';
 };
+
+module.exports.addNumbers = (a, b)=>{
+   var c = a+b;
+   return c;
+}
