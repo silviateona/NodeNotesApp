@@ -13,3 +13,22 @@ var notesAddNote = notes.addNote();
 //let's include a third party library installed through npm into project!!
 
 const _=require('lodash');
+
+//some command line magics: u can run app:
+//node app.js winnie
+//and get access to the winnie argument by using the process.argv (remember, process is like document in the web browser)
+console.log(process.argv);
+//we can see that our fancy commandline item is in the third position
+//of the process.argv object
+var command = process.argv[2];
+console.log('command: ', command);
+
+//now we can do stuff depending on the item passed in the commandline
+//for example, we can run app as: node app.js add, or node app.js list
+if(command ==='add'){
+   console.log('Adding a new Note!');
+}else if(command ==='list'){
+   console.log('Listing all notes!');
+}else{
+   console.log('command either forgotten or not recognized');
+}
